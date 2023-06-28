@@ -1,6 +1,7 @@
 
-//TODO: abstract the component
-//
+
+
+import { Link } from 'react-router-dom'
 
 interface Props {
   heading: string
@@ -14,9 +15,9 @@ const Cardfood = (props: Props) => {
         <img src="/indian-sweet.webp" alt="indian-sweet" />
       </figure>
       <div className="card-body items-center">
-        <h2 className="card-title m-0">{props.heading}</h2>
+        <h2 className="card-title m-0"><Link className="card-title m-0" to={`food_category/${props.heading}`}>{props.heading}</Link></h2>
       </div>
-    </div>
+    </div >
   )
 }
 

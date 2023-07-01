@@ -1,24 +1,21 @@
-
-
-
 import { Link } from 'react-router-dom'
+
 
 interface Props {
   heading: string
 }
 
-const Cardfood = (props: Props) => {
+export const Cardfood = (props: Props) => {
 
   return (
-    <div className="card card-compact max-w-sm bg-base-100 shadow-xl">
-      <figure>
+    <div className="card card-compact max-w-sm bg-base-100 ">
+      <figure className='m-0'>
         <img src="/indian-sweet.webp" alt="indian-sweet" />
       </figure>
-      <div className="card-body items-center">
-        <h2 className="card-title m-0"><Link className="card-title m-0" to={`food_category/${props.heading}`}>{props.heading}</Link></h2>
+      <div className="card-body items-center hover:bg-base-200 hover:rounded-b-xl">
+        <Link className="card-title m-0 font-bold no-underline" to={`food_category/${props.heading}`}>{props.heading}</Link>
       </div>
     </div >
   )
 }
 
-export default Cardfood

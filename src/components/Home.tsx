@@ -1,20 +1,18 @@
-import Cardfood from "./Cardfood"
+import { Cardfood } from "./Cardfood"
 
-export function Home() {
+interface Props {
+  csv: string[]
+}
+export function Home(props: Props) {
+
   return (
-
-    <div id="main" className="prose max-w-none mx-auto">
-      < div className="mx-auto w-5/6 mt-12 flex flex-col items-center " >
-        <h1 className="font-black">
-          MotherJee's Catering
-        </h1>
-        <div className="grid grid-cols-3 grid-rows-4 gap-5">
-          <Cardfood heading="Sweets" />
-          <Cardfood heading="Chicken" />
-          <Cardfood heading="Beef" />
-          <Cardfood heading="Appetizers" />
-        </div>
-      </div >
-    </div>
+    <div className="mx-auto w-5/6 mt-12 flex flex-col items-center" >
+      <h1>
+        MotherJee's Catering
+      </h1>
+      <div className="grid grid-cols-3 grid-rows-4 gap-6">
+        {props.csv.map((value, index) => <Cardfood key={index} heading={value} />)}
+      </div>
+    </div >
   )
 }

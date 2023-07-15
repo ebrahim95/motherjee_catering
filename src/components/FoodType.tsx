@@ -24,12 +24,14 @@ const FoodCard = (props: result_no_catergoy) => {
   )
 }
 
+//renders the food cards on the router Food Category
+
 export function FoodType(props: Props) {
   const { type } = useParams();
   return (
-    <div className="mx-auto w-5/6 mt-12 flex flex-col items-center" >
+    <div className="mx-auto w-5/6 mt-12 flex flex-col  items-center" >
       <h1>{type}</h1>
-      <div className="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-4 gap-5">
+      <div className="grid grid-cols-2 lg:grid-cols-3  gap-5">
         {props.csv.map(item_object => {
           if (item_object.Category === type) {
             return <FoodCard Name={item_object.Name}

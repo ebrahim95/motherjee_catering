@@ -11,7 +11,7 @@ interface Props {
 const FoodCard = (props: result_no_catergoy) => {
   return (
     <div className="card card-compact card-bordered max-w-sm bg-base-200 shadow-xl ">
-      <figure className='m-0'><img src="/indian-sweet.webp" alt={props?.Name} /></figure>
+      <figure className='m-0'><img src="indian-sweet.webp" alt={props?.Name} /></figure>
       <div className="card-body">
         <h2 className="card-title">{props?.Name} <br />{props?.Bengali}</h2>
         <p>{props?.Description}</p>
@@ -29,7 +29,7 @@ export function FoodType(props: Props) {
   return (
     <div className="mx-auto w-5/6 mt-12 flex flex-col items-center" >
       <h1>{type}</h1>
-      <div className="grid grid-cols-3 grid-rows-4 gap-5">
+      <div className="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-4 gap-5">
         {props.csv.map(item_object => {
           if (item_object.Category === type) {
             return <FoodCard Name={item_object.Name}

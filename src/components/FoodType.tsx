@@ -10,7 +10,7 @@ interface Props {
 
 const FoodCard = (props: result_no_catergoy) => {
   return (
-    <div className="card card-compact card-bordered max-w-sm bg-base-200 shadow-xl ">
+    <div className="card card-compact card-bordered max-w-sm bg-base-200 shadow-md ">
       <figure className='m-0'><img src="indian-sweet.webp" alt={props?.Name} /></figure>
       <div className="card-body">
         <h2 className="card-title">{props?.Name} <br />{props?.Bengali}</h2>

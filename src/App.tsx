@@ -31,7 +31,7 @@ function App() {
 
 
   return (
-    <div id="main" className="prose max-w-none mx-auto">
+    <div id="main" className="prose max-w-none mx-auto flex flex-col justify-between">
       <div className="navbar bg-primary">
         <div className="navbar-center flex">
           <Link to="/" className="btn btn-ghost normal-case text-xl no-underline">MotherJee Catering</Link>

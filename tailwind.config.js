@@ -12,7 +12,7 @@ export default {
     require('@tailwindcss/typography'),
   ],
   daisyui: {
-    themes: ['retro']
+    themes: ['luxury']
   }
 
 }

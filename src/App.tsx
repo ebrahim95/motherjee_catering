@@ -7,7 +7,7 @@ import { Home } from "./components/Home";
 import {
   Routes,
   Route,
-  Link
+  Link,
 } from 'react-router-dom'
 
 function App() {
@@ -28,7 +28,6 @@ function App() {
 
 
   const catergory_uniq = [...new Set(csv?.map(value => value.Category))]
-
 
   return (
     <div id="main" className="prose max-w-none mx-auto flex flex-col justify-between">

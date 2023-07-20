@@ -4,7 +4,7 @@ export interface results_types {
   Description: string,
   Full_tray?: string,
   Half_tray?: string,
-  Image: string,
+  Image?: string,
   Bengali: string
   Amount?: string
 }

@@ -28,22 +28,26 @@ function App() {
     }, [])
 
 
-    const catergory_uniq = [...new Set(csv?.map(value => value.Category))]
 
     return (
         <div id="main" className="prose max-w-none mx-auto flex flex-col justify-between">
-            <div className="navbar bg-base-300">
-                <div className="navbar-center flex">
+            <div className="navbar bg-base-300 border-2 border-amber-500">
+                <div className="navbar-start flex">
                     <Link to="/" className="btn btn-ghost normal-case text-xl no-underline">MotherJee Catering</Link>
+                </div>
+                <div className="navbar-end flex-none">
+                    <button className="btn btn-square btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
                 </div>
             </div>
 
             <Routes>
-                <Route path="/" element={<Home csv={catergory_uniq} />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/food_category/:type" element={<FoodType csv={csv} />} />
                 <Route path="/about" element={<About />} />
             </Routes>
-            <footer className="footer footer-center mt-10 p-6 bg-base-300 text-base-content rounded">
+            <footer className="footer footer-center mt-10 p-6 bg-base-300 text-base-content border-2 border-amber-500 ">
                 <div id="footer-links" className="grid grid-flow-col gap-4 text-lg">
                     <Link to="/" className="link link-hover">Home</Link>
                     <Link to="/about" className="link link-hover">About Us</Link>

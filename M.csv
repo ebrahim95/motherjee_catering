@@ -1,22 +1,22 @@
-Category,Name,Description,Amount,Half_Tray,Full_tray,Bengali,Image
-Appetizers,Aalo Samosa,,,,,,
-Appetizers,Aalo Shingara,,,,,,
-Appetizers,Beef Egg Rolls,,,,,,
-Appetizers,Beef Liver Shingara,,,,,,
-Appetizers,Beef Samosa,,,,,,
-Appetizers,Beef Shingara,,,,,,
-Appetizers,Beguni,,,,,,
-Appetizers,Chicken Egg Rolls,,,,,,
-Appetizers,Chicken Samosa,,,,,,
-Appetizers,Chot Poti,,,,,,
-Appetizers,Crispy Fried Cauliflower,,,,,,
-Appetizers,Daal Puri,,,,,,
-Appetizers,Haleem,,,,,,
-Appetizers,Peaji,,,,,,
-Appetizers,Chicken Spring Rolls,,,,,,
-Appetizers,Beef Spring Rolls,,,,,,
-Appetizers,Veggie Spring Rolls,,,,,,
-Appetizers,Veggie Egg Rolls,,,,,,
+Category,Name,Description,Amount,Half Tray,Full tray,Bengali,Image
+Appetizers,Aalo Samosa,,,,,,appetizers/aalo_samosa.webp
+Appetizers,Aalo Shingara,,,,,,appetizers/aalo_shingara.webp
+Appetizers,Beef Egg Rolls,,,,,,appetizers/beef_egg_rolls.webp
+Appetizers,Beef Liver Shingara,,,,,,appetizers/beef_liver_shingara.webp
+Appetizers,Beef Samosa,,,,,,appetizers/beef_samosa.webp
+Appetizers,Beef Shingara,,,,,,appetizers/beef_shingara.webp
+Appetizers,Beguni,,,,,,appetizers/beguni.webp
+Appetizers,Chicken Egg Rolls,,,,,,appetizers/chicken_egg_rolls.webp
+Appetizers,Chicken Samosa,,,,,,appetizers/chicken_samosa.webp
+Appetizers,Chot Poti,,,,,,appetizers/chot_poti.webp
+Appetizers,Crispy Fried Cauliflower,,,,,,appetizers/crispy_fried_cauliflower.webp
+Appetizers,Daal Puri,,,,,,appetizers/daal_puri.webp
+Appetizers,Haleem,,,,,,appetizers/haleem.webp
+Appetizers,Peaji,,,,,,appetizers/peaji.webp
+Appetizers,Chicken Spring Rolls,,,,,,appetizers/chicken_spring_rolls.webp
+Appetizers,Beef Spring Rolls,,,,,,appetizers/beef_spring_rolls.webp
+Appetizers,Veggie Spring Rolls,,,,,,appetizers/veggie_spring_rolls.webp
+Appetizers,Veggie Egg Rolls,,,,,,appetizers/veggie_egg_rolls.webp
 Beef and Curries,Beef Curry,,,$70,$150,,
 Beef and Curries,Beef Kala Buna,,,$75,$155,,
 Beef and Curries,Beef Korma,,,$79,$160,,
@@ -62,11 +62,10 @@ Mishti and Pitha,Puli pitha (coconut),,$1.75/pc,,,,
 Mishti and Pitha,Rosh malai,,$10.99/lb,,,,
 Mishti and Pitha,Rosogolla,,$10.50/lb,,,,
 Mishti and Pitha,Vapa pitha,,$2.00/pc,,,,
-Sweets and Deserts,,,,,,,
-Tandoori and Kabab,Biya Bari Jaki Kabab,,,,,,
-Tandoori and Kabab,Chapli Kabab,,,,,,
-Tandoori and Kabab,Shammi Kabab,,,,,,
-Tandoori and Kabab,Tandoori Chicken,,,,,,
+Tandoori & Kabab,Biya Bari Jaki Kabab,,,,,,
+Tandoori & Kabab,Chapli Kabab,,,,,,
+Tandoori & Kabab,Shammi Kabab,,,,,,
+Tandoori & Kabab,Tandoori Chicken,,,,,,
 Bangladesi Chinese,Fried Rice,,,,,,
 Bangladesi Chinese,Chicken with Vegetables,,,,,,
 Bangladesi Chinese,Veggie Mix,,,,,,

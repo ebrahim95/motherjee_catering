@@ -17,14 +17,14 @@ Appetizers,Chicken Spring Rolls,,,,,,appetizers/chicken_spring_rolls.webp
 Appetizers,Beef Spring Rolls,,,,,,appetizers/beef_spring_rolls.webp
 Appetizers,Veggie Spring Rolls,,,,,,appetizers/veggie_spring_rolls.webp
 Appetizers,Veggie Egg Rolls,,,,,,appetizers/veggie_egg_rolls.webp
-Beef and Curries,Beef Curry,,,$70,$150,,
-Beef and Curries,Beef Kala Buna,,,$75,$155,,
-Beef and Curries,Beef Korma,,,$79,$160,,
-Beef and Curries,Beef Rejala,,,$79,$160,,
-Beef and Curries,Meshbani Ghosh,,,,,,
-Beef and Curries,Aloo Ghosh,,,,,,
-Beef and Curries,Achar Ghosh,,,,,,
-Beef and Curries,Daal Ghosh,,,,,,
+Beef and Curries,Beef Curry,,,$70,$150,,beef_curries/beef_curry.webp
+Beef and Curries,Beef Kala Buna,,,$75,$155,,beef_curries/beef_kala_buna.webp
+Beef and Curries,Beef Korma,,,$79,$160,,beef_curries/beef_korma.webp
+Beef and Curries,Beef Rejala,,,$79,$160,,beef_curries/beef_rejala.webp
+Beef and Curries,Meshbani Ghosh,,,,,,beef_curries/meshbani_ghosh.webp
+Beef and Curries,Aloo Ghosh,,,,,,beef_curries/aloo_ghosh.webp
+Beef and Curries,Achar Ghosh,,,,,,beef_curries/achar_ghosh.webp
+Beef and Curries,Daal Ghosh,,,,,,beef_curries/daal_ghosh.webp
 Biryanis and Rice,Beef Biryani,,,$79,$140,,
 Biryanis and Rice,Chicken Biryani,,,$55,$110,,
 Biryanis and Rice,Goat Biryani,,,$90,$180,,

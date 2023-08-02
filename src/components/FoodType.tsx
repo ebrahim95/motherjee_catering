@@ -11,9 +11,9 @@ interface Props {
 const FoodCard = (props: result_no_catergoy) => {
   return (
     <div className="card card-compact card-bordered max-w-sm bg-base-200 shadow-md ring-2 ring-amber-700  outline outline-2 outline-amber-400 outline-offset-4 rounded-2xl">
-      <figure className='m-0'><img className="w-72 h-48 lg:h-56" src={props?.Image} alt={props?.Name} /></figure>
+      <figure className='m-0'><img className="w-72 h-48 lg:h-56 flex place-items-center place-content-center" src={props?.Image} alt={props?.Name} /></figure>
       <div className="card-body ring-2 ring-amber-900 rounded-b-2xl hover:bg-secondary-focus">
-        <h2 className="card-title">{props?.Name} <br />{props?.Bengali}</h2>
+        <h2 className="card-title mt-0">{props?.Name} <br />{props?.Bengali}</h2>
         <p>{props?.Description}</p>
         {/* <div className="card-actions justify-end"> */}
         {/*   <button className="btn btn-primary">Buy Now</button> */}

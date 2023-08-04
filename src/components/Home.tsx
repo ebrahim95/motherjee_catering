@@ -53,7 +53,7 @@ function Home() {
       <h1>
         MotherJee's Catering
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-6">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
         {image_src.map((obj, index) => <Cardfood key={index} heading={obj.heading} image={obj.image} />)}
       </div>
     </div >

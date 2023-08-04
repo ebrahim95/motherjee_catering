@@ -5,7 +5,7 @@ function About() {
 
   const paragraph_style = "border-amber-500 border-2 p-3 rounded-lg"
   return (
-    <section id="about" className="mx-auto text-lg lg:w-3/6 md:w-5/6 w-11/12 mt-12 flex flex-col items-center">
+    <section id="about" className="mx-auto text-lg lg:w-3/12 md:w-5/6 w-11/12 mt-12 flex flex-col items-center">
       <div className="text-lg breadcrumbs ">
         <ul>
           <li><Link to="/">Home</Link></li>

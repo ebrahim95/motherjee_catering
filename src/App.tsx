@@ -31,14 +31,20 @@ function App() {
 
   return (
     <div id="main" className="prose max-w-none mx-auto flex flex-col justify-between">
-      <div className="navbar bg-base-300 border-2 border-amber-500">
-        <div className="navbar-start flex">
+      <div className="navbar sm:flex-row flex flex-col  bg-base-300 border-2 border-amber-500">
+        <div className="navbar-start flex sm:place-content-start place-content-center">
           <Link to="/" className="btn btn-ghost normal-case text-xl no-underline">MotherJee Catering</Link>
         </div>
-        <div className="navbar-end flex-none">
-          <button className="btn btn-square btn-ghost">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        <div className="navbar-end flex sm:place-content-end place-content-center gap-x-2">
+          <button className="btn btn-primary">
+            <Link className="no-underline text-black" to="/">HOME</Link>
           </button>
+          <button className="btn btn-primary">
+            <Link className="no-underline text-black" to="/about">ABOUT US</Link>
+          </button>
+          {/* <button className="btn btn-square btn-ghost"> */}
+          {/*   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg> */}
+          {/* </button> */}
         </div>
       </div>
 

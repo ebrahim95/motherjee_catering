@@ -10,8 +10,8 @@ interface Props {
 
 const FoodCard = (props: result_no_catergoy) => {
   return (
-    <div className="card card-compact card-bordered max-w-sm bg-base-200 shadow-md ring-2 ring-amber-700  outline outline-2 outline-amber-400 outline-offset-4 rounded-2xl">
-      <figure className='m-0'><img className="w-72 h-48 lg:h-56 flex place-items-center place-content-center" src={props?.Image} alt={props?.Name} /></figure>
+    <div className="card card-compact card-bordered lg:max-w-sm max-w-md bg-base-200 shadow-md ring-2 ring-amber-700  outline outline-2 outline-amber-400 outline-offset-4 rounded-2xl">
+      <figure className='m-0'><img className="w-72 h-64 flex place-items-center place-content-center" src={props?.Image} alt={props?.Name} /></figure>
       <div className="card-body ring-2 ring-amber-900 rounded-b-2xl hover:bg-secondary-focus">
         <h2 className="card-title mt-0">{props?.Name} <br />{props?.Bengali}</h2>
         <p>{props?.Description}</p>
@@ -39,7 +39,7 @@ export function FoodType(props: Props) {
       </div>
 
       <h1>{type}</h1>
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-6 ">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-x-20 lg:grid-cols-3 lg:gap-8 ">
         {props.csv.map((item_object, i) => {
           if (item_object.Category === type) {
             return <FoodCard key={i}

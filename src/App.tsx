@@ -4,6 +4,7 @@ import { results_types } from './utils/types'
 import Papa, { ParseResult } from "papaparse";
 import Home from "./components/Home";
 import About from "./components/About"
+import Contact from "./components/Contact"
 
 import {
   Routes,
@@ -31,16 +32,19 @@ function App() {
 
   return (
     <div id="main" className="prose max-w-none mx-auto flex flex-col justify-between">
-      <div className="navbar sm:flex-row flex flex-col  bg-base-300 border-2 border-amber-500">
+      <div className="navbar sm:flex-row flex flex-col bg-base-300 border-2 border-base-content py-5 px-3">
         <div className="navbar-start flex sm:place-content-start place-content-center">
           <Link to="/" className="btn btn-ghost normal-case text-xl no-underline">MotherJee Catering</Link>
         </div>
-        <div className="navbar-end flex sm:place-content-end place-content-center gap-x-2">
-          <button className="btn btn-primary">
-            <Link className="no-underline text-black" to="/">HOME</Link>
+        <div className="navbar-end flex flex-col flex-grow gap-y-2 w-4/12 md:flex-row md:gap-x-2 items-stretch">
+          <button className="btn border-2 border-base-content text-lg hover:bg-neutral md:mt-0 mt-1">
+            <Link className="no-underline" to="/">HOME</Link>
           </button>
-          <button className="btn btn-primary">
-            <Link className="no-underline text-black" to="/about">ABOUT US</Link>
+          <button className="btn border-2 border-base-content text-lg hover:bg-neutral">
+            <Link className="no-underline" to="/about">ABOUT US</Link>
+          </button>
+          <button className="btn border-2 border-base-content text-lg hover:bg-neutral">
+            <Link className="no-underline" to="/contact">CONTACT</Link>
           </button>
           {/* <button className="btn btn-square btn-ghost"> */}
           {/*   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg> */}
@@ -52,6 +56,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/food_category/:type" element={<FoodType csv={csv} />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <footer className="footer footer-center mt-10 p-6 bg-base-300 text-base-content border-2 border-amber-500 ">
         <div id="footer-links" className="grid grid-flow-col gap-4 text-lg">

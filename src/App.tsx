@@ -70,7 +70,7 @@ function App() {
             <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
           </div>
         </div>
-        <div id="footer-contact-info" className="text-lg">
+        <div id="footer-contact-info" className="text-xl">
           <p>
             Phone Number - 346-368-4831
             <br />
@@ -78,9 +78,8 @@ function App() {
             anytime between 7:00 am - 10:00 pm
             To Place an Order!
             <br />
-            <strong> ORDER </strong>between 7:00 am - 3:00 pm to receive Same Day Delivery!
           </p>
-          <span className="text-sm"> Copyright © 2023 - All right reserved by MotherJee Catering</span>
+          <span className="text-md"> Copyright © 2023 - All right reserved by MotherJee Catering</span>
         </div>
       </footer>
     </div >

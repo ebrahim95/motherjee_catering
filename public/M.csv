@@ -25,18 +25,18 @@ Beef and Curries,Meshbani Ghosh,,,,,,beef_curries/meshbani_ghosh.webp
 Beef and Curries,Aloo Ghosh,,,,,,beef_curries/aloo_ghosh.webp
 Beef and Curries,Achar Ghosh,,,,,,beef_curries/achar_ghosh.webp
 Beef and Curries,Daal Ghosh,,,,,,beef_curries/daal_ghosh.webp
-Biryanis and Rice,Beef Biryani,,,$79,$140,,
-Biryanis and Rice,Chicken Biryani,,,$55,$110,,
-Biryanis and Rice,Goat Biryani,,,$90,$180,,
-Biryanis and Rice,Keema Polao,,,,,,
-Biryanis and Rice,Beef Tehari,,,,,,
-Biryanis and Rice,Khachi Biryani (Goat),,,$90,$180,,
-Chicken and Curries,Butter Chicken,,,$100,$150,,
-Chicken and Curries,Chicken Curry,,$4.99/leg quarter,,,,
-Chicken and Curries,Chicken Roast,,$4.99/leg quarter,,,,
-Chicken and Curries,Chicken Korma,,,,,,
-Chicken and Curries,Chicken Buna,,,,,,
-Chicken and Curries,Aloo Chicken,,,,,,
+Biryanis and Rice,Beef Biryani,,,$79,$140,,biryanis_and_rice/beef_biryani.webp
+Biryanis and Rice,Chicken Biryani,,,$55,$110,,biryanis_and_rice/chicken_biryani.webp
+Biryanis and Rice,Goat Biryani,,,$90,$180,,biryanis_and_rice/goat_biryani.webp
+Biryanis and Rice,Keema Pulao,,,,,,biryanis_and_rice/keema_pulao.webp
+Biryanis and Rice,Beef Tehari,,,,,,biryanis_and_rice/beef_tehari.webp
+Biryanis and Rice,Khachi Biryani (Goat),,,$90,$180,,biryanis_and_rice/khachi_biryani.webp
+Chicken and Curries,Butter Chicken,,,$100,$150,,chicken_curries/butter_chicken.webp
+Chicken and Curries,Chicken Curry,,$4.99/leg quarter,,,,chicken_curries/chicken_curry.webp
+Chicken and Curries,Chicken Roast,,$4.99/leg quarter,,,,chicken_curries/chicken_roast.webp
+Chicken and Curries,Chicken Korma,,,,,,chicken_curries/chicken_korma.webp
+Chicken and Curries,Chicken Buna,,,,,,chicken_curries/chicken_buna.webp
+Chicken and Curries,Aloo Chicken,,,,,,chicken_curries/aloo_chicken.webp
 Fish and Curries,Kashki (chotto mass),,,,,,
 Fish and Curries,Mrigal mass,,,,,,
 Fish and Curries,Rui mass,,,,,,
@@ -62,10 +62,10 @@ Mishti and Pitha,Puli pitha (coconut),,$1.75/pc,,,,
 Mishti and Pitha,Rosh malai,,$10.99/lb,,,,
 Mishti and Pitha,Rosogolla,,$10.50/lb,,,,
 Mishti and Pitha,Vapa pitha,,$2.00/pc,,,,
-Tandoori & Kabab,Biya Bari Jaki Kabab,,,,,,
-Tandoori & Kabab,Chapli Kabab,,,,,,
-Tandoori & Kabab,Shammi Kabab,,,,,,
-Tandoori & Kabab,Tandoori Chicken,,,,,,
+Tandoori and Kabab,Biya Bari Jaki Kabab,,,,,,
+Tandoori and Kabab,Chapli Kabab,,,,,,
+Tandoori and Kabab,Shammi Kabab,,,,,,
+Tandoori and Kabab,Tandoori Chicken,,,,,,
 Bangladesi Chinese,Fried Rice,,,,,,
 Bangladesi Chinese,Chicken with Vegetables,,,,,,
 Bangladesi Chinese,Veggie Mix,,,,,,

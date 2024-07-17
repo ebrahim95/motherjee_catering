@@ -32,18 +32,18 @@ function App() {
 
   return (
     <div id="main" className="prose max-w-none mx-auto flex flex-col justify-between">
-      <div className="navbar sm:flex-row flex flex-col bg-base-100 border-2 border-base-content py-5 px-3">
+      <div className="navbar sm:flex-row flex flex-col bg-base-100 border-b-4 border-b-red-900 py-5 px-3">
         <div className="navbar-start flex sm:place-content-start place-content-center">
           <Link to="/" className="btn btn-ghost normal-case text-xl no-underline">MotherJee Catering</Link>
         </div>
         <div className="navbar-end flex flex-col flex-grow gap-y-2 w-5/12 md:flex-row md:gap-x-2 items-stretch">
-          <button className="btn border-2 border-base-content text-lg hover:bg-neutral md:mt-0 mt-1">
+          <button className="btn border-2 bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100 md:mt-0 mt-1">
             <Link className="no-underline" to="/">HOME</Link>
           </button>
-          <button className="btn border-2 border-base-content text-lg hover:bg-neutral">
+          <button className="btn border-2 bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100">
             <Link className="no-underline" to="/about">ABOUT US</Link>
           </button>
-          <button className="btn border-2 border-base-content text-lg hover:bg-neutral">
+          <button className="btn border-2 bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100">
             <Link className="no-underline" to="/contact">CONTACT</Link>
           </button>
           {/* <button className="btn btn-square btn-ghost"> */}
@@ -58,7 +58,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <footer className="footer footer-center mt-10 p-6 bg-base-300 text-base-content border-2 border-amber-500 ">
+      <footer className="footer footer-center mt-10 p-6 bg-base-100 text-base-content border-t-4 border-t-red-900">
         <div id="footer-links" className="grid grid-flow-col gap-4 text-lg">
           <Link to="/" className="link link-hover">Home</Link>
           <Link to="/about" className="link link-hover">About Us</Link>

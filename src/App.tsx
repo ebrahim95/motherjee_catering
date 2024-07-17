@@ -22,7 +22,7 @@ function App() {
       skipEmptyLines: true,
       download: true,
       delimiter: ",",
-      complete: function(results: ParseResult<results_types>) {
+      complete: function (results: ParseResult<results_types>) {
         setCsv(results.data)
       },
     });
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div id="main" className="prose max-w-none mx-auto flex flex-col justify-between">
-      <div className="navbar sm:flex-row flex flex-col bg-base-300 border-2 border-base-content py-5 px-3">
+      <div className="navbar sm:flex-row flex flex-col bg-base-100 border-2 border-base-content py-5 px-3">
         <div className="navbar-start flex sm:place-content-start place-content-center">
           <Link to="/" className="btn btn-ghost normal-case text-xl no-underline">MotherJee Catering</Link>
         </div>

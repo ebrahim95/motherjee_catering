@@ -10,9 +10,11 @@ interface Props {
 
 const FoodCard = (props: result_no_catergoy) => {
   return (
-    <div className="card card-compact card-bordered lg:max-w-sm max-w-md bg-base-100 shadow-md outline outline-3 outline-primary  rounded-2xl">
-      <figure className='m-0'><img className="w-72 h-28 md:h-64 flex place-items-center place-content-center" src={props?.Image} alt={props?.Name} /></figure>
-      <div className="card-body ring-2 ring-amber-900 rounded-b-2xl hover:bg-red-100">
+    <div className="card card-compact max-w-sm bg-base-100">
+      <figure className='m-0'>
+        <img className="w-72 h-28 md:h-64 rounded-2xl" src={props?.Image} alt={props?.Name} />
+      </figure>
+      <div className="card-body items-center">
         <h2 className="card-title mt-0">{props?.Name} <br />{props?.Bengali}</h2>
         <p>{props?.Description}</p>
         {/* <div className="card-actions justify-end"> */}

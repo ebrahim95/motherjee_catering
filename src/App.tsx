@@ -32,18 +32,18 @@ function App() {
 
   return (
     <div id="main" className="prose max-w-none mx-auto flex flex-col justify-between">
-      <div className="navbar sm:flex-row flex flex-col bg-base-100 border-b-4 border-b-red-900 py-5 px-3">
+      <div className="navbar sm:flex-row flex flex-col bg-base-100 border-b-4 border-b-red-900 py-5 px-3 min-h-52">
         <div className="navbar-start flex sm:place-content-start place-content-center">
           <Link to="/" className="btn btn-ghost normal-case text-xl no-underline">MotherJee Catering</Link>
         </div>
-        <div className="navbar-end flex flex-col flex-grow gap-y-2 w-5/12 md:flex-row md:gap-x-2 items-stretch">
-          <button className="btn border-2 bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100 md:mt-0 mt-1">
+        <div className="navbar-end flex flex-col flex-grow gap-y-2 w-5/12 md:flex-row items-stretch">
+          <button className="btn border-0 rounded-none bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100 md:mt-0 mt-1">
             <Link className="no-underline" to="/">HOME</Link>
           </button>
-          <button className="btn border-2 bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100">
+          <button className="btn border-0 rounded-none bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100">
             <Link className="no-underline" to="/about">ABOUT US</Link>
           </button>
-          <button className="btn border-2 bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100">
+          <button className="btn border-0 rounded-none bg-red-50 border-base-content text-lg hover:border-primary hover:bg-red-100">
             <Link className="no-underline" to="/contact">CONTACT</Link>
           </button>
           {/* <button className="btn btn-square btn-ghost"> */}

@@ -44,19 +44,21 @@ function Home() {
 
   ]
   return (
-    <div className="mx-auto lg:w-5/6 w-11/12 mt-12 flex flex-col items-center" >
-      <div className="text-lg breadcrumbs">
-        <ul>
-          <li><Link to="/">Home</Link></li>
+    <>
+      <div className="text-lg breadcrumbs bg-red-900 w-full place-items-center">
+        <ul className="place-content-center h-4">
+          <li><Link to="/" className="text-white">Home</Link></li>
         </ul>
       </div>
-      <h1>
-        MotherJee's Catering
-      </h1>
-      <div className="grid grid-cols-2 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-        {image_src.map((obj, index) => <Cardfood key={index} heading={obj.heading} image={obj.image} />)}
-      </div>
-    </div >
+      <div className="mx-auto lg:w-5/6 w-11/12 mt-12 flex flex-col items-center" >
+        <h1>
+          MotherJee's Catering
+        </h1>
+        <div className="grid grid-cols-2 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+          {image_src.map((obj, index) => <Cardfood key={index} heading={obj.heading} image={obj.image} />)}
+        </div>
+      </div >
+    </>
   )
 }
 
